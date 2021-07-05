@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.banner-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#first-img img{
+    height: 40rem;
+    margin-right: 20px
+    
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+    color: rgb(235, 143, 57);
+
+}
+.button{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(tomato, orange);
+    padding: 14px;
+    border-radius: 20px solid orange;
+}
+span{
+    color: tomato;
+}
+.half-wid{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-wid img{
+    width:100% ;
+}
+.middle-section{
+    display: flex;
+    background-image: url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-section img{
+    margin-top: 20PX;
+    padding: 10px;
+}
+.third-section{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+h4{
+    font-size: 50px;
+    margin-bottom: 2rem; 
+}
+.Career{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.third-section div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+#last-first{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    height: 40vh;
+}
+#last-section{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, rgb(45, 98, 243));
+    border-image-slice: 1;
+    height: 40vh;
+
+}
+footer p{
+    margin-top: 10rem;
+    text-align: center;
+}
